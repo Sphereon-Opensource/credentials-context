@@ -1,7 +1,7 @@
 {
-  "name": "react-native-credentials-context",
+  "name": "@sphereon/rn-w3c-credentials-context",
   "version": "1.0.1-0",
-  "description": "Credentials Context that is runnable in a React Native context",
+  "description": "W3C Credentials Context that is runnable in a React Native context",
   "main": "js",
   "files": [
     "contexts",
@@ -10,18 +10,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sphereon-Opensource/react-native-credentials-context"
+    "url": "https://github.com/Sphereon-Opensource/rn-w3c-credentials-context"
   },
   "bugs": {
-    "url": "https://github.com/Sphereon-Opensource/react-native-credentials-context/issues"
+    "url": "https://github.com/Sphereon-Opensource/rn-w3c-credentials-context/issues"
   },
-  "homepage": "https://github.com/Sphereon-Opensource/react-native-credentials-context#readme",
+  "homepage": "https://github.com/Sphereon-Opensource/rn-w3c-credentials-context#readme",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "eslint": "^6.0.1",
     "eslint-config-digitalbazaar": "^2.0.0"
   },
-  "publishConfig": {
-    "registry": "https://nexus.qa.sphereon.com/repository/sphereon-opensource-npm/"
-  }
+  "private": false,
+  "keywords": [
+    "W3C",
+    "Verifiable Credentials",
+    "Context",
+    "VC"
+  ]
 }

@@ -9,8 +9,8 @@
 See: https://github.com/w3c/vc-data-model
 
 # Releasing
-Use the following commands to authenticate with Nexus and publish:
+Use the following commands to publish the package to npmjs.org:
 ```
-npm adduser --registry=https://nexus.qa.sphereon.com/repository/sphereon-opensource-npm/
-npm publish
+npm login
+npm publish --access public
 ```
